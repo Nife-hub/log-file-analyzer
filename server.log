@@ -1,0 +1,6 @@
+2026-11-01 09:00:00 INFO Server started
+2026-11-01 09:05:00 WARNING High memory usage
+Invalid log
+2026-11-01 09:10:00 ERROR Database failed
+2026-11-01 09:15:00 DEBUG Checking database
+2026-11-01 09:20:00 BANANA Something happened
