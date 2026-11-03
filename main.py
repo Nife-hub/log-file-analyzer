@@ -1,5 +1,7 @@
 info_count, warning_count, error_count, total_logs, unparsed_counter, unknown_level_count = 0, 0, 0, 0, 0, 0
 
+filter_level = input('Show level (ALL/INFO/WARNING/ERROR): ').upper()
+
 with open('server.log', 'r') as log_file:
     for line in log_file:
         total_logs += 1       # total count
@@ -8,8 +10,10 @@ with open('server.log', 'r') as log_file:
         if len(parts) < 3:   #if the length's less than 3, its invalid
             unparsed_counter += 1   # count the invalid
             continue
+        
     
         level = parts[2]    #level position
+
         if level == 'INFO':
             info_count += 1
         elif level == 'WARNING':
@@ -18,6 +22,10 @@ with open('server.log', 'r') as log_file:
             error_count += 1
         else:
             unknown_level_count += 1
+
+        if level == filter_level:
+            print(line.strip())
+        
 
 # GET THE PERCENTAGE
 if total_logs > 0:
