@@ -1,5 +1,5 @@
-2026-11-01 09:00:00 INFO Server started
-2026-11-01 09:05:00 WARNING High memory usage
-2026-11-01 09:10:00 ERROR Database failed
-2026-11-01 09:15:00 INFO User logged in
-2026-11-01 09:20:00 ERROR File not found
+2026-11-05 09:00:00 INFO Server started
+2026-11-05 10:15:00 ERROR Database failed
+2026-11-05 11:30:00 ERROR Connection lost
+2026-11-05 12:45:00 WARNING High memory usage
+2026-11-05 14:00:00 ERROR Database timeout
