@@ -2,7 +2,20 @@ import sys
 import csv
 from datetime import datetime
 
-info_count, warning_count, error_count, total_logs, unparsed_counter, unknown_level_count, match_count, displayed_count = 0, 0, 0, 0, 0, 0, 0, 0
+# STATS FOR ALL FILES
+counts = {
+    'info_count': 0,
+    'warning_count': 0, 
+    'error_count': 0, 
+    'total_logs': 0, 
+    'unparsed_counter': 0, 
+    'unknown_level_count': 0, 
+    'match_count': 0, 
+    'displayed_count': 0
+}
+
+# STATS FOR EACH FILE
+file_stats = {}
 
 # INPUT FILENAME(S)
 user_input = input('Enter filename(s) separated with a space: ').strip()
@@ -91,13 +104,26 @@ while True:
 # ACCESS AND READ FILES 
 try:
     for filename in log_files:
+
+        # UPDATE FILE STATS
+        file_stats[filename] = {
+        'total': 0,
+        'INFO': 0,
+        'WARNING': 0,
+        'ERROR': 0,
+        'unparsed': 0,
+        'unknown': 0
+    }
+        
         with open(filename, 'r', encoding='utf-8') as log_file:
             for line_index, line in enumerate(log_file, start=1):
-                total_logs += 1       # total count
+                counts['total_logs'] += 1       # total count
+                file_stats[filename]['total'] += 1  # total for each file
                 parts = line.split()    # split the current line to a list
 
                 if len(parts) < 3:   # if the length's less than 3, it's invalid
-                    unparsed_counter += 1   # count the invalid
+                    counts['unparsed_counter'] += 1   # count the invalid
+                    file_stats[filename]['unparsed'] += 1
                     continue
             
                 level = parts[2]    # level position
@@ -107,7 +133,8 @@ try:
                 try:
                     timestamp = datetime.strptime(timestamp_text, '%Y-%m-%d %H:%M:%S')
                 except ValueError:
-                    unparsed_counter += 1
+                    counts['unparsed_counter'] += 1
+                    file_stats[filename]['unparsed'] += 1
                     continue
 
                 # COUNT LOGS EVERY HOUR
@@ -122,9 +149,11 @@ try:
 
                 # CHECK FOR AND COUNT LOG LEVEL
                 if level == 'INFO':
-                    info_count += 1
+                    counts['info_count'] += 1
+                    file_stats[filename]['INFO'] += 1
                 elif level == 'WARNING':
-                    warning_count += 1
+                    counts['warning_count'] += 1
+                    file_stats[filename]['WARNING'] += 1
 
                 elif level == 'ERROR':
                     # count error messages
@@ -132,9 +161,11 @@ try:
                         error_messages[message] += 1
                     else:
                         error_messages[message] = 1
-                    error_count += 1
+                    counts['error_count'] += 1
+                    file_stats[filename]['ERROR'] += 1
                 else:
-                    unknown_level_count += 1
+                    counts['unknown_level_count'] += 1
+                    file_stats[filename]['UNKNOWN'] += 1
 
                 # CHECK FOR INPUTTED LEVEL AND KEYWORD
                 if (
@@ -143,13 +174,13 @@ try:
                     and (start_time is None or timestamp >= start_time) 
                     and (end_time is None or timestamp <= end_time)
                     ):
-                    match_count += 1
+                    counts['match_count'] += 1
 
                     filtered_logs.append([timestamp, level, message])   # update filtered logs list
 
-                    if limit is None or displayed_count < limit:    # None is a special singleton object, and is checks object identity
+                    if limit is None or counts['displayed_count'] < limit:    # None is a special singleton object, and is checks object identity
                         print(f'\nLine {line_index}: {line.strip()}')
-                        displayed_count += 1
+                        counts['displayed_count'] += 1
 
 except FileNotFoundError:
     print('The requested file could not be found.')
@@ -190,19 +221,19 @@ for hour, count in sorted(hourly_counts.items()):
 
 
 # NO MATCH 
-if match_count == 0:
+if counts['match_count'] == 0:
     print('\nNo matching logs found.\n')
 
 
 # GET THE HIDDEN FILES
-hidden_count = match_count - displayed_count
+hidden_count = counts['match_count'] - counts['displayed_count']
         
 
 # GET THE PERCENTAGE
-if total_logs > 0:
-    info_percentage = (info_count/total_logs) * 100
-    warning_percentage = (warning_count/total_logs) * 100
-    error_percent = (error_count/total_logs) * 100
+if counts['total_logs'] > 0:
+    info_percentage = (counts['info_count']/counts['total_logs']) * 100
+    warning_percentage = (counts['warning_count']/counts['total_logs']) * 100
+    error_percent = (counts['error_count']/counts['total_logs']) * 100
 else: 
     info_percentage = 0
     warning_percentage = 0
@@ -210,7 +241,7 @@ else:
 
 
 # PRINT THE OUTPUT
-print(f'\nTOTAL: {total_logs}\n\nINFO: {info_count} ({info_percentage:.1f}%)\n\nWARNING: {warning_count} ({warning_percentage:.1f}%)\n\nERROR: {error_count} ({error_percent:.1f}%)\n\nUNPARSED: {unparsed_counter}\n\nUnknown level: {unknown_level_count}\n\nTotal Matches: {match_count}\n\nMatches shown: {displayed_count}\n\nHidden: {hidden_count}\n')
+print(f'\nTOTAL: {counts['total_logs']}\n\nINFO: {counts['info_count']} ({info_percentage:.1f}%)\n\nWARNING: {counts['warning_count']} ({warning_percentage:.1f}%)\n\nERROR: {counts['error_count']} ({error_percent:.1f}%)\n\nUNPARSED: {counts['unparsed_counter']}\n\nUnknown level: {counts['unknown_level_count']}\n\nTotal Matches: {counts['match_count']}\n\nMatches shown: {counts['displayed_count']}\n\nHidden: {hidden_count}\n')
 
 
 # WRITE THE SUMMARY INTO CSV FILE 
@@ -218,13 +249,13 @@ try:
     with open('summary.csv', 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(['Metric', 'Count'])
-        writer.writerow(['Total Logs', total_logs])
-        writer.writerow(['INFO', info_count])
-        writer.writerow(['WARNING', warning_count])
-        writer.writerow(['ERROR', error_count])
-        writer.writerow(['Unknown Levels', unknown_level_count])
-        writer.writerow(['Unparsed Lines', unparsed_counter])
-        writer.writerow(['Matching Logs', match_count])
+        writer.writerow(['Total Logs', counts['total_logs']])
+        writer.writerow(['INFO', counts['info_count']])
+        writer.writerow(['WARNING', counts['warning_count']])
+        writer.writerow(['ERROR', counts['error_count']])
+        writer.writerow(['Unknown Levels', counts['unknown_level_count']])
+        writer.writerow(['Unparsed Lines', counts['unparsed_counter']])
+        writer.writerow(['Matching Logs', counts['match_count']])
 except PermissionError:
     print('Permission denied. Unable to write summary.csv')
 
