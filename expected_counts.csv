@@ -1,0 +1,5 @@
+File,Total,INFO,WARNING,ERROR,Unparsed,Unknown
+server.log,1200,681,201,300,11,7
+database.log,850,502,146,189,8,5
+application.log,650,361,115,165,6,3
+security.log,400,232,62,101,3,2

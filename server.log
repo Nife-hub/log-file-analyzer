@@ -1,5 +1,1200 @@
-2026-11-05 09:00:00 INFO Server started
-2026-11-05 09:30:00 ERROR Database failed
-2026-11-05 10:00:00 WARNING Disk space low
-2026-11-05 10:30:00 ERROR Connection timeout
-2026-11-05 11:00:00 ERROR Database failed
+bad log line
+2026-11-05 14:20:08 ERROR Connection timeout
+2026-11-05 14:20:16 ERROR Request failed
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Database connection failed
+2026-11-05 14:20:40 ERROR Database connection failed
+2026-11-05 08:02:54 INFO Request completed
+2026-11-05 08:03:23 INFO User signed in
+2026-11-05 08:03:52 INFO Service started
+2026-11-05 08:04:21 INFO User signed in
+2026-11-05 08:04:50 INFO User signed in
+2026-11-05 08:05:19 ERROR Authentication service unavailable
+2026-11-05 08:05:48 WARNING Retry scheduled
+2026-11-05 08:06:17 WARNING High memory usage
+2026-11-05 08:06:46 INFO Service started
+2026-11-05 08:07:15 WARNING Retry scheduled
+2026-11-05 08:07:44 INFO Service started
+2026-11-05 08:08:13 INFO Cache refreshed
+2026-11-05 08:08:42 INFO Health check passed
+2026-11-05 08:09:11 WARNING Retry scheduled
+2026-11-05 08:09:40 ERROR Connection timeout
+2026-11-05 08:10:09 INFO Health check passed
+2026-11-05 08:10:38 WARNING High memory usage
+2026-11-05 08:11:07 INFO User signed in
+2026-11-05 08:11:36 INFO Request completed
+2026-11-05 08:12:05 INFO Cache refreshed
+2026-11-05 08:12:34 INFO Health check passed
+2026-11-05 08:13:03 INFO Service started
+2026-11-05 08:13:32 INFO Service started
+2026-11-05 08:14:01 INFO User signed in
+2026-11-05 08:14:30 INFO Service started
+2026-11-05 08:14:59 INFO Request completed
+2026-11-05 08:15:28 INFO Cache refreshed
+2026-11-05 08:15:57 INFO Health check passed
+2026-11-05 08:16:26 WARNING Slow response detected
+2026-11-05 08:16:55 INFO Health check passed
+2026-11-05 08:17:24 INFO Cache refreshed
+2026-11-05 14:20:08 ERROR Database connection failed
+2026-11-05 14:20:16 ERROR Authentication service unavailable
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Disk write failed
+2026-11-05 14:20:40 ERROR Disk write failed
+2026-11-05 14:20:00 ERROR Request failed
+2026-11-05 08:20:47 INFO User signed in
+2026-11-05 08:21:16 INFO User signed in
+2026-11-05 08:21:45 INFO Health check passed
+2026-11-05 08:22:14 INFO Service started
+2026-11-05 08:22:43 INFO Health check passed
+2026-11-05 08:23:12 INFO Cache refreshed
+2026-11-05 08:23:41 ERROR Authentication service unavailable
+2026-11-05 08:24:10 INFO Cache refreshed
+2026-11-05 08:24:39 INFO Cache refreshed
+2026-11-05 08:25:08 WARNING High memory usage
+2026-11-05 08:25:37 INFO User signed in
+2026-11-05 08:26:06 INFO User signed in
+2026-11-05 08:26:35 INFO Request completed
+2026-11-05 08:27:04 ERROR Authentication service unavailable
+2026-11-05 08:27:33 INFO Request completed
+2026-11-05 08:28:02 WARNING Disk space running low
+2026-11-05 08:28:31 INFO Health check passed
+2026-11-05 08:29:00 INFO Request completed
+2026-11-05 08:29:29 ERROR Database connection failed
+2026-11-05 08:29:58 WARNING Slow response detected
+2026-11-05 08:30:27 WARNING Disk space running low
+2026-11-05 08:30:56 INFO Service started
+2026-11-05 08:31:25 INFO Health check passed
+2026-11-05 08:31:54 ERROR Request failed
+2026-11-05 08:32:23 WARNING High memory usage
+2026-11-05 08:32:52 INFO Cache refreshed
+2026-11-05 08:33:21 INFO Cache refreshed
+2026-11-05 08:33:50 INFO Cache refreshed
+2026-11-05 08:34:19 INFO Request completed
+2026-11-05 08:34:48 INFO Cache refreshed
+2026-11-05 08:35:17 WARNING Slow response detected
+2026-11-05 14:20:16 ERROR Connection timeout
+2026-11-05 14:20:24 ERROR Connection timeout
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Authentication service unavailable
+2026-11-05 14:20:00 ERROR Request failed
+2026-11-05 14:20:08 ERROR Database connection failed
+2026-11-05 08:38:40 WARNING High memory usage
+2026-11-05 08:39:09 INFO Health check passed
+2026-11-05 08:39:38 INFO Health check passed
+2026-11-05 08:40:07 WARNING Slow response detected
+2026-11-05 08:40:36 INFO Service started
+2026-11-05 08:41:05 ERROR Authentication service unavailable
+2026-11-05 08:41:34 WARNING High memory usage
+2026-11-05 08:42:03 INFO Service started
+2026-11-05 08:42:32 INFO Health check passed
+2026-11-05 08:43:01 INFO Service started
+2026-11-05 08:43:30 INFO Health check passed
+2026-11-05 08:43:59 INFO Health check passed
+2026-11-05 08:44:28 INFO Cache refreshed
+2026-11-05 08:44:57 ERROR Request failed
+2026-11-05 08:45:26 INFO Request completed
+2026-11-05 08:45:55 INFO Service started
+2026-11-05 08:46:24 INFO Cache refreshed
+2026-11-05 08:46:53 INFO Service started
+2026-11-05 08:47:22 INFO Request completed
+2026-11-05 08:47:51 WARNING High memory usage
+2026-11-05 08:48:20 INFO Request completed
+2026-11-05 08:48:49 INFO Health check passed
+2026-11-05 08:49:18 WARNING Slow response detected
+2026-11-05 08:49:47 INFO Request completed
+2026-11-05 08:50:16 ERROR Request failed
+2026-11-05 08:50:45 WARNING High memory usage
+2026-11-05 08:51:14 INFO Request completed
+2026-11-05 08:51:43 INFO Health check passed
+2026-11-05 08:52:12 WARNING High memory usage
+2026-11-05 08:52:41 ERROR Connection timeout
+2026-11-05 08:53:10 INFO User signed in
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Disk write failed
+2026-11-05 14:20:00 ERROR Request failed
+2026-11-05 14:20:08 ERROR Request failed
+2026-11-05 14:20:16 ERROR Disk write failed
+2026-11-05 08:56:33 INFO Cache refreshed
+2026-11-05 08:57:02 INFO User signed in
+2026-11-05 08:57:31 WARNING Disk space running low
+2026-11-05 08:58:00 WARNING High memory usage
+2026-11-05 08:58:29 WARNING Retry scheduled
+2026-11-05 08:58:58 WARNING Retry scheduled
+2026-11-05 08:59:27 INFO Health check passed
+2026-11-05 08:59:56 INFO User signed in
+2026-11-05 09:00:25 WARNING Slow response detected
+2026-11-05 09:00:54 INFO Service started
+2026-11-05 09:01:23 INFO User signed in
+2026-11-05 09:01:52 INFO Cache refreshed
+2026-11-05 09:02:21 INFO Health check passed
+2026-11-05 09:02:50 INFO Request completed
+2026-11-05 09:03:19 ERROR Disk write failed
+2026-11-05 09:03:48 INFO Cache refreshed
+2026-11-05 09:04:17 WARNING Disk space running low
+2026-11-05 09:04:46 ERROR Disk write failed
+2026-11-05 09:05:15 WARNING Slow response detected
+2026-11-05 09:05:44 INFO Request completed
+2026-11-05 09:06:13 DEBUG Debug trace recorded
+2026-11-05 09:06:42 INFO Request completed
+2026-11-05 09:07:11 INFO Service started
+2026-11-05 09:07:40 INFO Service started
+2026-11-05 09:08:09 INFO Service started
+2026-11-05 09:08:38 INFO User signed in
+2026-11-05 09:09:07 INFO Health check passed
+2026-11-05 09:09:36 INFO Cache refreshed
+2026-11-05 09:10:05 WARNING Disk space running low
+2026-11-05 09:10:34 INFO Cache refreshed
+2026-11-05 09:11:03 INFO Cache refreshed
+2026-11-05 14:20:32 ERROR Database connection failed
+2026-11-05 14:20:40 ERROR Connection timeout
+2026-11-05 14:20:00 ERROR Request failed
+2026-11-05 14:20:08 ERROR Request failed
+2026-11-05 14:20:16 ERROR Request failed
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 09:14:26 ERROR Request failed
+2026-11-05 09:14:55 INFO Request completed
+2026-11-05 09:15:24 INFO Health check passed
+2026-11-05 09:15:53 INFO Service started
+2026-11-05 09:16:22 WARNING Slow response detected
+2026-11-05 09:16:51 INFO Service started
+2026-11-05 09:17:20 WARNING Retry scheduled
+2026-11-05 09:17:49 INFO User signed in
+2026-11-05 09:18:18 WARNING Retry scheduled
+2026-11-05 09:18:47 INFO Cache refreshed
+2026-11-05 09:19:16 INFO Service started
+2026-11-05 09:19:45 INFO Cache refreshed
+2026-11-05 09:20:14 INFO Cache refreshed
+2026-11-05 09:20:43 WARNING High memory usage
+2026-11-05 09:21:12 INFO Service started
+2026-11-05 09:21:41 INFO Cache refreshed
+2026-11-05 09:22:10 INFO Request completed
+2026-11-05 09:22:39 INFO Cache refreshed
+2026-11-05 09:23:08 INFO Service started
+2026-11-05 09:23:37 INFO Health check passed
+2026-11-05 09:24:06 INFO User signed in
+2026-11-05 09:24:35 INFO Service started
+2026-11-05 09:25:04 INFO Request completed
+2026-11-05 09:25:33 ERROR Request failed
+2026-11-05 09:26:02 INFO Service started
+2026-11-05 09:26:31 ERROR Database connection failed
+2026-11-05 09:27:00 INFO Cache refreshed
+2026-11-05 09:27:29 INFO Health check passed
+2026-11-05 09:27:58 INFO Service started
+2026-11-05 09:28:27 INFO User signed in
+2026-11-05 09:28:56 INFO Health check passed
+2026-11-05 14:20:40 ERROR Authentication service unavailable
+2026-11-05 14:20:00 ERROR Disk write failed
+2026-11-05 14:20:08 ERROR Request failed
+2026-11-05 14:20:16 ERROR Request failed
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 09:32:19 INFO Cache refreshed
+2026-11-05 09:32:48 INFO Request completed
+2026-11-05 09:33:17 INFO Cache refreshed
+2026-11-05 09:33:46 INFO Cache refreshed
+2026-11-05 09:34:15 WARNING Disk space running low
+2026-11-05 09:34:44 INFO User signed in
+2026-11-05 09:35:13 INFO Request completed
+2026-11-05 09:35:42 INFO Health check passed
+2026-11-05 09:36:11 INFO Request completed
+2026-11-05 09:36:40 INFO Service started
+2026-11-05 09:37:09 WARNING Slow response detected
+2026-11-05 09:37:38 INFO Service started
+2026-11-05 09:38:07 INFO Cache refreshed
+2026-11-05 09:38:36 WARNING Slow response detected
+2026-11-05 09:39:05 INFO User signed in
+2026-11-05 09:39:34 ERROR Database connection failed
+2026-11-05 09:40:03 INFO Request completed
+2026-11-05 09:40:32 WARNING Slow response detected
+2026-11-05 09:41:01 INFO Cache refreshed
+2026-11-05 09:41:30 WARNING Slow response detected
+bad log line
+2026-11-05 09:42:28 WARNING High memory usage
+2026-11-05 09:42:57 INFO Cache refreshed
+2026-11-05 09:43:26 INFO User signed in
+2026-11-05 09:43:55 WARNING Disk space running low
+2026-11-05 09:44:24 INFO User signed in
+2026-11-05 09:44:53 INFO Health check passed
+2026-11-05 09:45:22 ERROR Connection timeout
+2026-11-05 09:45:51 INFO Service started
+2026-11-05 09:46:20 INFO Cache refreshed
+2026-11-05 09:46:49 WARNING Slow response detected
+2026-11-05 14:20:00 ERROR Connection timeout
+2026-99-99 25:61:61 ERROR Invalid timestamp
+2026-11-05 14:20:16 ERROR Request failed
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Authentication service unavailable
+2026-11-05 09:50:12 INFO User signed in
+2026-11-05 09:50:41 ERROR Database connection failed
+2026-11-05 09:51:10 ERROR Database connection failed
+2026-11-05 09:51:39 INFO Request completed
+2026-11-05 09:52:08 INFO Cache refreshed
+2026-11-05 09:52:37 WARNING Retry scheduled
+2026-11-05 09:53:06 INFO Request completed
+2026-11-05 09:53:35 INFO Cache refreshed
+2026-11-05 09:54:04 INFO Health check passed
+2026-11-05 09:54:33 INFO Health check passed
+2026-11-05 09:55:02 INFO Service started
+2026-11-05 09:55:31 ERROR Request failed
+2026-11-05 09:56:00 WARNING Slow response detected
+2026-11-05 09:56:29 INFO User signed in
+2026-11-05 09:56:58 INFO User signed in
+2026-11-05 09:57:27 ERROR Database connection failed
+2026-11-05 09:57:56 WARNING Disk space running low
+2026-11-05 09:58:25 INFO Cache refreshed
+2026-11-05 09:58:54 INFO Service started
+2026-11-05 09:59:23 WARNING Slow response detected
+2026-11-05 09:59:52 ERROR Database connection failed
+2026-11-05 10:00:21 WARNING Disk space running low
+2026-11-05 10:00:50 INFO Service started
+2026-11-05 10:01:19 WARNING Disk space running low
+2026-11-05 10:01:48 WARNING Slow response detected
+2026-11-05 10:02:17 ERROR Connection timeout
+2026-11-05 10:02:46 WARNING Slow response detected
+2026-11-05 10:03:15 INFO User signed in
+2026-11-05 10:03:44 INFO Service started
+2026-11-05 10:04:13 ERROR Authentication service unavailable
+2026-11-05 10:04:42 INFO Cache refreshed
+2026-11-05 14:20:08 ERROR Request failed
+2026-11-05 14:20:16 ERROR Disk write failed
+2026-11-05 14:20:24 ERROR Authentication service unavailable
+2026-11-05 14:20:32 ERROR Disk write failed
+2026-11-05 14:20:40 ERROR Connection timeout
+2026-11-05 14:20:00 ERROR Disk write failed
+2026-11-05 10:08:05 INFO User signed in
+2026-11-05 10:08:34 INFO User signed in
+2026-11-05 10:09:03 ERROR Authentication service unavailable
+2026-11-05 10:09:32 INFO Health check passed
+2026-11-05 10:10:01 WARNING Slow response detected
+2026-11-05 10:10:30 INFO Cache refreshed
+2026-11-05 10:10:59 INFO User signed in
+2026-11-05 10:11:28 INFO Health check passed
+2026-11-05 10:11:57 INFO Request completed
+2026-11-05 10:12:26 DEBUG Debug trace recorded
+2026-11-05 10:12:55 INFO User signed in
+2026-11-05 10:13:24 INFO Request completed
+2026-11-05 10:13:53 INFO Request completed
+2026-11-05 10:14:22 WARNING Retry scheduled
+2026-11-05 10:14:51 INFO Service started
+2026-11-05 10:15:20 WARNING Disk space running low
+2026-11-05 10:15:49 INFO User signed in
+2026-11-05 10:16:18 INFO User signed in
+2026-11-05 10:16:47 WARNING Retry scheduled
+2026-11-05 10:17:16 ERROR Authentication service unavailable
+2026-11-05 10:17:45 INFO Request completed
+2026-11-05 10:18:14 INFO Service started
+2026-11-05 10:18:43 WARNING Disk space running low
+2026-11-05 10:19:12 INFO Request completed
+2026-11-05 10:19:41 WARNING Slow response detected
+2026-11-05 10:20:10 INFO User signed in
+2026-11-05 10:20:39 INFO User signed in
+2026-11-05 10:21:08 INFO Request completed
+2026-11-05 10:21:37 WARNING High memory usage
+2026-11-05 10:22:06 WARNING Slow response detected
+2026-11-05 10:22:35 INFO Health check passed
+2026-11-05 14:20:16 ERROR Connection timeout
+2026-11-05 14:20:24 ERROR Database connection failed
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Authentication service unavailable
+2026-11-05 14:20:00 ERROR Disk write failed
+2026-11-05 14:20:08 ERROR Request failed
+2026-11-05 10:25:58 INFO User signed in
+2026-11-05 10:26:27 INFO Service started
+2026-11-05 10:26:56 WARNING Retry scheduled
+2026-11-05 10:27:25 INFO Service started
+2026-11-05 10:27:54 INFO Cache refreshed
+2026-11-05 10:28:23 WARNING High memory usage
+2026-11-05 10:28:52 INFO User signed in
+2026-11-05 10:29:21 INFO Service started
+2026-11-05 10:29:50 WARNING Disk space running low
+2026-11-05 10:30:19 ERROR Authentication service unavailable
+2026-11-05 10:30:48 ERROR Database connection failed
+2026-11-05 10:31:17 ERROR Request failed
+2026-11-05 10:31:46 INFO Health check passed
+2026-11-05 10:32:15 INFO Health check passed
+2026-11-05 10:32:44 INFO User signed in
+2026-11-05 10:33:13 INFO User signed in
+2026-11-05 10:33:42 INFO User signed in
+2026-11-05 10:34:11 WARNING High memory usage
+2026-11-05 10:34:40 ERROR Request failed
+2026-11-05 10:35:09 INFO Request completed
+2026-11-05 10:35:38 INFO User signed in
+2026-11-05 10:36:07 INFO User signed in
+2026-11-05 10:36:36 ERROR Authentication service unavailable
+2026-11-05 10:37:05 WARNING Retry scheduled
+2026-11-05 10:37:34 WARNING Retry scheduled
+2026-11-05 10:38:03 INFO Service started
+2026-11-05 10:38:32 ERROR Request failed
+2026-11-05 10:39:01 INFO Service started
+2026-11-05 10:39:30 INFO User signed in
+2026-11-05 10:39:59 INFO Health check passed
+2026-11-05 10:40:28 INFO Request completed
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Database connection failed
+2026-11-05 14:20:00 ERROR Connection timeout
+2026-11-05 14:20:08 ERROR Disk write failed
+2026-11-05 14:20:16 ERROR Authentication service unavailable
+2026-11-05 10:43:51 INFO Request completed
+2026-11-05 10:44:20 INFO Cache refreshed
+2026-11-05 10:44:49 INFO Request completed
+2026-11-05 10:45:18 INFO Request completed
+2026-11-05 10:45:47 INFO Health check passed
+2026-11-05 10:46:16 INFO Request completed
+2026-11-05 10:46:45 INFO Request completed
+2026-11-05 10:47:14 INFO User signed in
+2026-11-05 10:47:43 INFO Health check passed
+2026-11-05 10:48:12 WARNING High memory usage
+2026-11-05 10:48:41 WARNING Slow response detected
+2026-11-05 10:49:10 WARNING Slow response detected
+2026-11-05 10:49:39 INFO Cache refreshed
+2026-11-05 10:50:08 INFO Request completed
+2026-11-05 10:50:37 INFO User signed in
+2026-11-05 10:51:06 WARNING High memory usage
+2026-11-05 10:51:35 INFO Health check passed
+2026-11-05 10:52:04 INFO Health check passed
+2026-11-05 10:52:33 INFO Cache refreshed
+2026-11-05 10:53:02 INFO Cache refreshed
+2026-11-05 10:53:31 WARNING Slow response detected
+2026-11-05 10:54:00 INFO Request completed
+2026-11-05 10:54:29 INFO Health check passed
+2026-11-05 10:54:58 INFO Request completed
+2026-11-05 10:55:27 INFO Request completed
+2026-11-05 10:55:56 INFO Request completed
+2026-11-05 10:56:25 INFO Request completed
+2026-11-05 10:56:54 INFO Health check passed
+2026-11-05 10:57:23 ERROR Disk write failed
+2026-11-05 10:57:52 INFO Cache refreshed
+2026-11-05 10:58:21 INFO Service started
+2026-11-05 14:20:32 ERROR Database connection failed
+2026-11-05 14:20:40 ERROR Authentication service unavailable
+2026-11-05 14:20:00 ERROR Disk write failed
+2026-11-05 14:20:08 ERROR Database connection failed
+2026-11-05 14:20:16 ERROR Request failed
+2026-11-05 14:20:24 ERROR Database connection failed
+2026-11-05 11:01:44 WARNING Retry scheduled
+2026-11-05 11:02:13 ERROR Disk write failed
+2026-11-05 11:02:42 WARNING Disk space running low
+2026-11-05 11:03:11 INFO Request completed
+2026-11-05 11:03:40 INFO Service started
+2026-11-05 11:04:09 WARNING High memory usage
+2026-11-05 11:04:38 INFO User signed in
+2026-11-05 11:05:07 INFO Health check passed
+2026-11-05 11:05:36 INFO Cache refreshed
+2026-11-05 11:06:05 INFO Cache refreshed
+2026-11-05 11:06:34 WARNING Retry scheduled
+2026-11-05 11:07:03 INFO Service started
+2026-11-05 11:07:32 INFO Cache refreshed
+2026-11-05 11:08:01 INFO Service started
+2026-11-05 11:08:30 INFO Request completed
+2026-11-05 11:08:59 INFO Health check passed
+2026-11-05 11:09:28 INFO Request completed
+2026-11-05 11:09:57 INFO Service started
+2026-11-05 11:10:26 INFO Service started
+2026-11-05 11:10:55 INFO User signed in
+2026-11-05 11:11:24 INFO Cache refreshed
+2026-11-05 11:11:53 INFO Health check passed
+2026-11-05 11:12:22 INFO Health check passed
+2026-11-05 11:12:51 INFO User signed in
+2026-11-05 11:13:20 INFO Health check passed
+2026-11-05 11:13:49 INFO Service started
+2026-11-05 11:14:18 INFO Health check passed
+2026-11-05 11:14:47 INFO Cache refreshed
+2026-11-05 11:15:16 ERROR Connection timeout
+2026-11-05 11:15:45 WARNING High memory usage
+2026-11-05 11:16:14 INFO User signed in
+2026-11-05 14:20:40 ERROR Request failed
+2026-11-05 14:20:00 ERROR Database connection failed
+2026-11-05 14:20:08 ERROR Database connection failed
+2026-11-05 14:20:16 ERROR Request failed
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Request failed
+2026-11-05 11:19:37 ERROR Disk write failed
+2026-11-05 11:20:06 INFO Health check passed
+2026-11-05 11:20:35 INFO Health check passed
+2026-11-05 11:21:04 WARNING Disk space running low
+2026-11-05 11:21:33 INFO Service started
+2026-11-05 11:22:02 INFO Cache refreshed
+2026-11-05 11:22:31 INFO User signed in
+2026-11-05 11:23:00 WARNING Slow response detected
+2026-11-05 11:23:29 WARNING Disk space running low
+bad log line
+2026-11-05 11:24:27 INFO Request completed
+2026-11-05 11:24:56 ERROR Request failed
+2026-11-05 11:25:25 INFO Health check passed
+2026-11-05 11:25:54 INFO Request completed
+2026-11-05 11:26:23 ERROR Database connection failed
+2026-11-05 11:26:52 ERROR Database connection failed
+2026-11-05 11:27:21 INFO Health check passed
+2026-11-05 11:27:50 INFO User signed in
+2026-11-05 11:28:19 INFO Cache refreshed
+2026-11-05 11:28:48 WARNING High memory usage
+2026-11-05 11:29:17 INFO User signed in
+2026-11-05 11:29:46 WARNING Slow response detected
+2026-11-05 11:30:15 INFO Health check passed
+2026-11-05 11:30:44 INFO Service started
+2026-11-05 11:31:13 INFO Health check passed
+2026-11-05 11:31:42 INFO Request completed
+2026-11-05 11:32:11 WARNING Retry scheduled
+2026-11-05 11:32:40 INFO Request completed
+2026-11-05 11:33:09 INFO Health check passed
+2026-11-05 11:33:38 INFO Health check passed
+2026-11-05 11:34:07 INFO Health check passed
+2026-11-05 14:20:00 ERROR Disk write failed
+2026-11-05 14:20:08 ERROR Authentication service unavailable
+2026-99-99 25:61:61 ERROR Invalid timestamp
+2026-11-05 14:20:24 ERROR Disk write failed
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Request failed
+2026-11-05 11:37:30 INFO Service started
+2026-11-05 11:37:59 WARNING Slow response detected
+2026-11-05 11:38:28 INFO Request completed
+2026-11-05 11:38:57 ERROR Disk write failed
+2026-11-05 11:39:26 INFO User signed in
+2026-11-05 11:39:55 INFO User signed in
+2026-11-05 11:40:24 INFO Cache refreshed
+2026-11-05 11:40:53 WARNING Disk space running low
+2026-11-05 11:41:22 INFO Health check passed
+2026-11-05 11:41:51 INFO Cache refreshed
+2026-11-05 11:42:20 WARNING Disk space running low
+2026-11-05 11:42:49 INFO Cache refreshed
+2026-11-05 11:43:18 INFO Cache refreshed
+2026-11-05 11:43:47 ERROR Connection timeout
+2026-11-05 11:44:16 INFO Cache refreshed
+2026-11-05 11:44:45 WARNING Retry scheduled
+2026-11-05 11:45:14 INFO Health check passed
+2026-11-05 11:45:43 INFO Health check passed
+2026-11-05 11:46:12 INFO Service started
+2026-11-05 11:46:41 INFO Cache refreshed
+2026-11-05 11:47:10 ERROR Disk write failed
+2026-11-05 11:47:39 INFO Cache refreshed
+2026-11-05 11:48:08 INFO Cache refreshed
+2026-11-05 11:48:37 INFO Cache refreshed
+2026-11-05 11:49:06 WARNING Retry scheduled
+2026-11-05 11:49:35 INFO Health check passed
+2026-11-05 11:50:04 INFO User signed in
+2026-11-05 11:50:33 INFO Cache refreshed
+2026-11-05 11:51:02 WARNING Retry scheduled
+2026-11-05 11:51:31 INFO Request completed
+2026-11-05 11:52:00 INFO Request completed
+2026-11-05 14:20:08 ERROR Authentication service unavailable
+2026-11-05 14:20:16 ERROR Request failed
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Connection timeout
+2026-11-05 14:20:00 ERROR Database connection failed
+2026-11-05 11:55:23 INFO User signed in
+2026-11-05 11:55:52 INFO Request completed
+2026-11-05 11:56:21 INFO Request completed
+2026-11-05 11:56:50 ERROR Request failed
+2026-11-05 11:57:19 INFO Request completed
+2026-11-05 11:57:48 INFO User signed in
+2026-11-05 11:58:17 INFO Health check passed
+2026-11-05 11:58:46 WARNING Disk space running low
+2026-11-05 11:59:15 INFO Health check passed
+2026-11-05 11:59:44 ERROR Disk write failed
+2026-11-05 12:00:13 INFO User signed in
+2026-11-05 12:00:42 INFO Cache refreshed
+2026-11-05 12:01:11 INFO Health check passed
+2026-11-05 12:01:40 INFO Request completed
+2026-11-05 12:02:09 WARNING Retry scheduled
+2026-11-05 12:02:38 INFO Cache refreshed
+2026-11-05 12:03:07 INFO Health check passed
+2026-11-05 12:03:36 INFO Health check passed
+2026-11-05 12:04:05 INFO Request completed
+2026-11-05 12:04:34 INFO Health check passed
+2026-11-05 12:05:03 INFO Health check passed
+2026-11-05 12:05:32 WARNING High memory usage
+2026-11-05 12:06:01 INFO Cache refreshed
+2026-11-05 12:06:30 INFO User signed in
+2026-11-05 12:06:59 INFO Health check passed
+2026-11-05 12:07:28 INFO User signed in
+2026-11-05 12:07:57 INFO User signed in
+2026-11-05 12:08:26 INFO Request completed
+2026-11-05 12:08:55 INFO User signed in
+2026-11-05 12:09:24 INFO Request completed
+2026-11-05 12:09:53 INFO Health check passed
+2026-11-05 14:20:16 ERROR Database connection failed
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Request failed
+2026-11-05 14:20:40 ERROR Disk write failed
+2026-11-05 14:20:00 ERROR Authentication service unavailable
+2026-11-05 14:20:08 ERROR Disk write failed
+2026-11-05 12:13:16 INFO Request completed
+2026-11-05 12:13:45 INFO Health check passed
+2026-11-05 12:14:14 INFO Cache refreshed
+2026-11-05 12:14:43 INFO Health check passed
+2026-11-05 12:15:12 INFO Service started
+2026-11-05 12:15:41 WARNING Slow response detected
+2026-11-05 12:16:10 INFO Cache refreshed
+2026-11-05 12:16:39 INFO Service started
+2026-11-05 12:17:08 INFO Cache refreshed
+2026-11-05 12:17:37 INFO Request completed
+2026-11-05 12:18:06 WARNING High memory usage
+2026-11-05 12:18:35 INFO Service started
+2026-11-05 12:19:04 INFO Service started
+2026-11-05 12:19:33 ERROR Request failed
+2026-11-05 12:20:02 INFO Service started
+2026-11-05 12:20:31 ERROR Request failed
+2026-11-05 12:21:00 ERROR Authentication service unavailable
+2026-11-05 12:21:29 INFO Health check passed
+2026-11-05 12:21:58 ERROR Authentication service unavailable
+2026-11-05 12:22:27 INFO Request completed
+2026-11-05 12:22:56 INFO Health check passed
+2026-11-05 12:23:25 WARNING Slow response detected
+2026-11-05 12:23:54 WARNING High memory usage
+2026-11-05 12:24:23 INFO Cache refreshed
+2026-11-05 12:24:52 DEBUG Debug trace recorded
+2026-11-05 12:25:21 ERROR Authentication service unavailable
+2026-11-05 12:25:50 ERROR Authentication service unavailable
+2026-11-05 12:26:19 INFO User signed in
+2026-11-05 12:26:48 INFO Service started
+2026-11-05 12:27:17 INFO User signed in
+2026-11-05 12:27:46 INFO Service started
+2026-11-05 14:20:24 ERROR Authentication service unavailable
+2026-11-05 14:20:32 ERROR Database connection failed
+2026-11-05 14:20:40 ERROR Authentication service unavailable
+2026-11-05 14:20:00 ERROR Request failed
+2026-11-05 14:20:08 ERROR Authentication service unavailable
+2026-11-05 14:20:16 ERROR Connection timeout
+2026-11-05 12:31:09 WARNING Retry scheduled
+2026-11-05 12:31:38 INFO Request completed
+2026-11-05 12:32:07 WARNING Disk space running low
+2026-11-05 12:32:36 INFO Health check passed
+2026-11-05 12:33:05 WARNING High memory usage
+2026-11-05 12:33:34 INFO Cache refreshed
+2026-11-05 12:34:03 WARNING High memory usage
+2026-11-05 12:34:32 INFO Health check passed
+2026-11-05 12:35:01 INFO Health check passed
+2026-11-05 12:35:30 ERROR Database connection failed
+2026-11-05 12:35:59 INFO Service started
+2026-11-05 12:36:28 INFO Service started
+2026-11-05 12:36:57 INFO User signed in
+2026-11-05 12:37:26 ERROR Authentication service unavailable
+2026-11-05 12:37:55 INFO Health check passed
+2026-11-05 12:38:24 INFO Service started
+2026-11-05 12:38:53 INFO Service started
+2026-11-05 12:39:22 WARNING High memory usage
+2026-11-05 12:39:51 INFO Health check passed
+2026-11-05 12:40:20 WARNING Slow response detected
+2026-11-05 12:40:49 INFO Cache refreshed
+2026-11-05 12:41:18 INFO Request completed
+2026-11-05 12:41:47 INFO User signed in
+2026-11-05 12:42:16 INFO User signed in
+2026-11-05 12:42:45 WARNING Disk space running low
+2026-11-05 12:43:14 INFO Service started
+2026-11-05 12:43:43 INFO Health check passed
+2026-11-05 12:44:12 INFO Request completed
+2026-11-05 12:44:41 INFO Service started
+2026-11-05 12:45:10 WARNING Slow response detected
+2026-11-05 12:45:39 INFO Cache refreshed
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Database connection failed
+2026-11-05 14:20:00 ERROR Database connection failed
+2026-11-05 14:20:08 ERROR Authentication service unavailable
+2026-11-05 14:20:16 ERROR Disk write failed
+2026-11-05 14:20:24 ERROR Authentication service unavailable
+2026-11-05 12:49:02 WARNING Slow response detected
+2026-11-05 12:49:31 INFO Service started
+2026-11-05 12:50:00 WARNING Slow response detected
+2026-11-05 12:50:29 INFO Request completed
+2026-11-05 12:50:58 INFO Cache refreshed
+2026-11-05 12:51:27 INFO Request completed
+2026-11-05 12:51:56 INFO Health check passed
+2026-11-05 12:52:25 INFO Cache refreshed
+2026-11-05 12:52:54 WARNING Disk space running low
+2026-11-05 12:53:23 INFO Request completed
+2026-11-05 12:53:52 ERROR Disk write failed
+2026-11-05 12:54:21 WARNING Slow response detected
+2026-11-05 12:54:50 INFO Cache refreshed
+2026-11-05 12:55:19 INFO Request completed
+2026-11-05 12:55:48 INFO Health check passed
+2026-11-05 12:56:17 WARNING Retry scheduled
+2026-11-05 12:56:46 INFO Request completed
+2026-11-05 12:57:15 INFO Service started
+2026-11-05 12:57:44 INFO Request completed
+2026-11-05 12:58:13 WARNING Retry scheduled
+2026-11-05 12:58:42 INFO Service started
+2026-11-05 12:59:11 INFO Cache refreshed
+2026-11-05 12:59:40 INFO Cache refreshed
+2026-11-05 13:00:09 ERROR Authentication service unavailable
+2026-11-05 13:00:38 INFO Health check passed
+2026-11-05 13:01:07 WARNING High memory usage
+2026-11-05 13:01:36 INFO Service started
+2026-11-05 13:02:05 ERROR Connection timeout
+2026-11-05 13:02:34 INFO Service started
+2026-11-05 13:03:03 INFO User signed in
+2026-11-05 13:03:32 WARNING Slow response detected
+2026-11-05 14:20:40 ERROR Database connection failed
+2026-11-05 14:20:00 ERROR Connection timeout
+2026-11-05 14:20:08 ERROR Request failed
+2026-11-05 14:20:16 ERROR Request failed
+bad log line
+2026-11-05 14:20:32 ERROR Disk write failed
+2026-11-05 13:06:55 ERROR Connection timeout
+2026-11-05 13:07:24 INFO User signed in
+2026-11-05 13:07:53 ERROR Authentication service unavailable
+2026-11-05 13:08:22 INFO Cache refreshed
+2026-11-05 13:08:51 ERROR Database connection failed
+2026-11-05 13:09:20 INFO Request completed
+2026-11-05 13:09:49 INFO Service started
+2026-11-05 13:10:18 INFO Cache refreshed
+2026-11-05 13:10:47 INFO Request completed
+2026-11-05 13:11:16 INFO Request completed
+2026-11-05 13:11:45 INFO Health check passed
+2026-11-05 13:12:14 INFO Service started
+2026-11-05 13:12:43 INFO Cache refreshed
+2026-11-05 13:13:12 INFO User signed in
+2026-11-05 13:13:41 INFO Cache refreshed
+2026-11-05 13:14:10 INFO Cache refreshed
+2026-11-05 13:14:39 INFO Cache refreshed
+2026-11-05 13:15:08 WARNING Slow response detected
+2026-11-05 13:15:37 INFO User signed in
+2026-11-05 13:16:06 WARNING High memory usage
+2026-11-05 13:16:35 INFO Cache refreshed
+2026-11-05 13:17:04 INFO Service started
+2026-11-05 13:17:33 ERROR Disk write failed
+2026-11-05 13:18:02 WARNING Slow response detected
+2026-11-05 13:18:31 WARNING Slow response detected
+2026-11-05 13:19:00 INFO Cache refreshed
+2026-11-05 13:19:29 INFO Service started
+2026-11-05 13:19:58 INFO Cache refreshed
+2026-11-05 13:20:27 WARNING High memory usage
+2026-11-05 13:20:56 WARNING Slow response detected
+2026-11-05 13:21:25 INFO Health check passed
+2026-11-05 14:20:00 ERROR Request failed
+2026-11-05 14:20:08 ERROR Authentication service unavailable
+2026-11-05 14:20:16 ERROR Authentication service unavailable
+2026-99-99 25:61:61 ERROR Invalid timestamp
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Database connection failed
+2026-11-05 13:24:48 INFO Cache refreshed
+2026-11-05 13:25:17 INFO Request completed
+2026-11-05 13:25:46 INFO User signed in
+2026-11-05 13:26:15 INFO Service started
+2026-11-05 13:26:44 INFO User signed in
+2026-11-05 13:27:13 WARNING Slow response detected
+2026-11-05 13:27:42 INFO Request completed
+2026-11-05 13:28:11 INFO Service started
+2026-11-05 13:28:40 INFO User signed in
+2026-11-05 13:29:09 INFO Service started
+2026-11-05 13:29:38 WARNING Retry scheduled
+2026-11-05 13:30:07 INFO User signed in
+2026-11-05 13:30:36 ERROR Request failed
+2026-11-05 13:31:05 DEBUG Debug trace recorded
+2026-11-05 13:31:34 ERROR Database connection failed
+2026-11-05 13:32:03 WARNING Slow response detected
+2026-11-05 13:32:32 ERROR Authentication service unavailable
+2026-11-05 13:33:01 ERROR Database connection failed
+2026-11-05 13:33:30 INFO Service started
+2026-11-05 13:33:59 INFO Request completed
+2026-11-05 13:34:28 ERROR Request failed
+2026-11-05 13:34:57 INFO User signed in
+2026-11-05 13:35:26 WARNING High memory usage
+2026-11-05 13:35:55 WARNING Disk space running low
+2026-11-05 13:36:24 INFO Request completed
+2026-11-05 13:36:53 INFO Cache refreshed
+2026-11-05 13:37:22 INFO Service started
+2026-11-05 13:37:51 WARNING Disk space running low
+2026-11-05 13:38:20 INFO Cache refreshed
+2026-11-05 13:38:49 INFO Cache refreshed
+2026-11-05 13:39:18 INFO Service started
+2026-11-05 14:20:08 ERROR Database connection failed
+2026-11-05 14:20:16 ERROR Database connection failed
+2026-11-05 14:20:24 ERROR Database connection failed
+2026-11-05 14:20:32 ERROR Request failed
+2026-11-05 14:20:40 ERROR Disk write failed
+2026-11-05 14:20:00 ERROR Disk write failed
+2026-11-05 13:42:41 WARNING Retry scheduled
+2026-11-05 13:43:10 ERROR Disk write failed
+2026-11-05 13:43:39 INFO User signed in
+2026-11-05 13:44:08 INFO Service started
+2026-11-05 13:44:37 INFO User signed in
+2026-11-05 13:45:06 ERROR Authentication service unavailable
+2026-11-05 13:45:35 INFO Cache refreshed
+2026-11-05 13:46:04 INFO Service started
+2026-11-05 13:46:33 INFO Service started
+2026-11-05 13:47:02 WARNING Slow response detected
+2026-11-05 13:47:31 INFO Request completed
+2026-11-05 13:48:00 INFO Health check passed
+2026-11-05 13:48:29 INFO Health check passed
+2026-11-05 13:48:58 WARNING High memory usage
+2026-11-05 13:49:27 INFO Service started
+2026-11-05 13:49:56 INFO User signed in
+2026-11-05 13:50:25 WARNING Retry scheduled
+2026-11-05 13:50:54 WARNING High memory usage
+2026-11-05 13:51:23 WARNING Disk space running low
+2026-11-05 13:51:52 WARNING Retry scheduled
+2026-11-05 13:52:21 INFO User signed in
+2026-11-05 13:52:50 WARNING Disk space running low
+2026-11-05 13:53:19 INFO Request completed
+2026-11-05 13:53:48 INFO Cache refreshed
+2026-11-05 13:54:17 WARNING Retry scheduled
+2026-11-05 13:54:46 INFO User signed in
+2026-11-05 13:55:15 WARNING High memory usage
+2026-11-05 13:55:44 INFO Request completed
+2026-11-05 13:56:13 INFO Service started
+2026-11-05 13:56:42 INFO Cache refreshed
+2026-11-05 13:57:11 INFO User signed in
+2026-11-05 14:20:16 ERROR Authentication service unavailable
+2026-11-05 14:20:24 ERROR Connection timeout
+2026-11-05 14:20:32 ERROR Database connection failed
+2026-11-05 14:20:40 ERROR Request failed
+2026-11-05 14:20:00 ERROR Connection timeout
+2026-11-05 14:20:08 ERROR Authentication service unavailable
+2026-11-05 14:00:34 INFO Health check passed
+2026-11-05 14:01:03 INFO Health check passed
+2026-11-05 14:01:32 INFO Service started
+2026-11-05 14:02:01 INFO Service started
+2026-11-05 14:02:30 INFO Request completed
+2026-11-05 14:02:59 INFO Request completed
+2026-11-05 14:03:28 WARNING High memory usage
+2026-11-05 14:03:57 INFO User signed in
+2026-11-05 14:04:26 WARNING High memory usage
+2026-11-05 14:04:55 INFO Request completed
+2026-11-05 14:05:24 INFO Cache refreshed
+2026-11-05 14:05:53 WARNING Slow response detected
+2026-11-05 14:06:22 INFO Service started
+2026-11-05 14:06:51 WARNING Slow response detected
+2026-11-05 14:07:20 INFO Service started
+2026-11-05 14:07:49 INFO Request completed
+2026-11-05 14:08:18 INFO Health check passed
+2026-11-05 14:08:47 INFO Request completed
+2026-11-05 14:09:16 WARNING Retry scheduled
+2026-11-05 14:09:45 WARNING Disk space running low
+2026-11-05 14:10:14 INFO Request completed
+2026-11-05 14:10:43 INFO User signed in
+2026-11-05 14:11:12 INFO User signed in
+2026-11-05 14:11:41 INFO User signed in
+2026-11-05 14:12:10 INFO Health check passed
+2026-11-05 14:12:39 WARNING High memory usage
+2026-11-05 14:13:08 WARNING High memory usage
+2026-11-05 14:13:37 INFO User signed in
+2026-11-05 14:14:06 WARNING Disk space running low
+2026-11-05 14:14:35 WARNING Disk space running low
+2026-11-05 14:15:04 ERROR Connection timeout
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Request failed
+2026-11-05 14:20:40 ERROR Authentication service unavailable
+2026-11-05 14:20:00 ERROR Database connection failed
+2026-11-05 14:20:08 ERROR Request failed
+2026-11-05 14:20:16 ERROR Database connection failed
+2026-11-05 14:18:27 INFO Request completed
+2026-11-05 14:18:56 INFO User signed in
+2026-11-05 14:19:25 INFO Service started
+2026-11-05 14:19:54 WARNING Retry scheduled
+2026-11-05 14:20:23 INFO Health check passed
+2026-11-05 14:20:52 INFO Health check passed
+2026-11-05 14:21:21 INFO Request completed
+2026-11-05 14:21:50 INFO Health check passed
+2026-11-05 14:22:19 INFO Health check passed
+2026-11-05 14:22:48 INFO Health check passed
+2026-11-05 14:23:17 INFO Service started
+2026-11-05 14:23:46 INFO User signed in
+2026-11-05 14:24:15 INFO Request completed
+2026-11-05 14:24:44 INFO User signed in
+2026-11-05 14:25:13 INFO Request completed
+2026-11-05 14:25:42 INFO Service started
+2026-11-05 14:26:11 INFO Request completed
+2026-11-05 14:26:40 ERROR Request failed
+2026-11-05 14:27:09 INFO Health check passed
+2026-11-05 14:27:38 WARNING Retry scheduled
+2026-11-05 14:28:07 INFO Request completed
+2026-11-05 14:28:36 INFO Request completed
+2026-11-05 14:29:05 INFO Cache refreshed
+2026-11-05 14:29:34 WARNING Slow response detected
+2026-11-05 14:30:03 ERROR Authentication service unavailable
+2026-11-05 14:30:32 ERROR Request failed
+2026-11-05 14:31:01 INFO Request completed
+2026-11-05 14:31:30 INFO Service started
+2026-11-05 14:31:59 WARNING Retry scheduled
+2026-11-05 14:32:28 INFO Health check passed
+2026-11-05 14:32:57 ERROR Database connection failed
+2026-11-05 14:20:32 ERROR Disk write failed
+2026-11-05 14:20:40 ERROR Disk write failed
+2026-11-05 14:20:00 ERROR Disk write failed
+2026-11-05 14:20:08 ERROR Database connection failed
+2026-11-05 14:20:16 ERROR Request failed
+2026-11-05 14:20:24 ERROR Connection timeout
+2026-11-05 14:36:20 INFO Request completed
+2026-11-05 14:36:49 ERROR Connection timeout
+2026-11-05 14:37:18 DEBUG Debug trace recorded
+2026-11-05 14:37:47 INFO Health check passed
+2026-11-05 14:38:16 INFO Cache refreshed
+2026-11-05 14:38:45 INFO Health check passed
+2026-11-05 14:39:14 INFO Request completed
+2026-11-05 14:39:43 INFO Cache refreshed
+2026-11-05 14:40:12 INFO User signed in
+2026-11-05 14:40:41 WARNING High memory usage
+2026-11-05 14:41:10 WARNING Disk space running low
+2026-11-05 14:41:39 INFO Request completed
+2026-11-05 14:42:08 INFO Request completed
+2026-11-05 14:42:37 INFO Request completed
+2026-11-05 14:43:06 INFO Health check passed
+2026-11-05 14:43:35 INFO Cache refreshed
+2026-11-05 14:44:04 INFO Service started
+2026-11-05 14:44:33 ERROR Authentication service unavailable
+2026-11-05 14:45:02 INFO Health check passed
+2026-11-05 14:45:31 INFO Request completed
+2026-11-05 14:46:00 ERROR Authentication service unavailable
+2026-11-05 14:46:29 INFO Request completed
+2026-11-05 14:46:58 INFO Health check passed
+2026-11-05 14:47:27 INFO User signed in
+bad log line
+2026-11-05 14:48:25 INFO Cache refreshed
+2026-11-05 14:48:54 INFO User signed in
+2026-11-05 14:49:23 INFO Service started
+2026-11-05 14:49:52 INFO Health check passed
+2026-11-05 14:50:21 ERROR Authentication service unavailable
+2026-11-05 14:50:50 INFO Service started
+2026-11-05 14:20:40 ERROR Connection timeout
+2026-11-05 14:20:00 ERROR Database connection failed
+2026-11-05 14:20:08 ERROR Authentication service unavailable
+2026-11-05 14:20:16 ERROR Database connection failed
+2026-11-05 14:20:24 ERROR Connection timeout
+2026-11-05 14:20:32 ERROR Disk write failed
+2026-11-05 14:54:13 WARNING Slow response detected
+2026-11-05 14:54:42 WARNING Disk space running low
+2026-11-05 14:55:11 INFO User signed in
+2026-11-05 14:55:40 WARNING High memory usage
+2026-11-05 14:56:09 ERROR Authentication service unavailable
+2026-11-05 14:56:38 ERROR Authentication service unavailable
+2026-11-05 14:57:07 INFO User signed in
+2026-11-05 14:57:36 INFO Cache refreshed
+2026-11-05 14:58:05 INFO Request completed
+2026-11-05 14:58:34 INFO Cache refreshed
+2026-11-05 14:59:03 ERROR Database connection failed
+2026-11-05 14:59:32 INFO Request completed
+2026-11-05 15:00:01 ERROR Request failed
+2026-11-05 15:00:30 INFO Service started
+2026-11-05 15:00:59 INFO User signed in
+2026-11-05 15:01:28 INFO Cache refreshed
+2026-11-05 15:01:57 WARNING Disk space running low
+2026-11-05 15:02:26 INFO User signed in
+2026-11-05 15:02:55 WARNING Slow response detected
+2026-11-05 15:03:24 INFO User signed in
+2026-11-05 15:03:53 INFO Request completed
+2026-11-05 15:04:22 INFO Cache refreshed
+2026-11-05 15:04:51 INFO Service started
+2026-11-05 15:05:20 ERROR Authentication service unavailable
+2026-11-05 15:05:49 WARNING Slow response detected
+2026-11-05 15:06:18 INFO Request completed
+2026-11-05 15:06:47 INFO User signed in
+2026-11-05 15:07:16 INFO Cache refreshed
+2026-11-05 15:07:45 INFO Cache refreshed
+2026-11-05 15:08:14 ERROR Authentication service unavailable
+2026-11-05 15:08:43 INFO Request completed
+2026-11-05 14:20:00 ERROR Disk write failed
+2026-11-05 14:20:08 ERROR Disk write failed
+2026-11-05 14:20:16 ERROR Authentication service unavailable
+2026-11-05 14:20:24 ERROR Database connection failed
+2026-99-99 25:61:61 ERROR Invalid timestamp
+2026-11-05 14:20:40 ERROR Connection timeout
+2026-11-05 15:12:06 INFO Service started
+2026-11-05 15:12:35 INFO Request completed
+2026-11-05 15:13:04 INFO Service started
+2026-11-05 15:13:33 INFO Service started
+2026-11-05 15:14:02 WARNING High memory usage
+2026-11-05 15:14:31 INFO Health check passed
+2026-11-05 15:15:00 ERROR Authentication service unavailable
+2026-11-05 15:15:29 ERROR Database connection failed
+2026-11-05 15:15:58 INFO Cache refreshed
+2026-11-05 15:16:27 INFO Service started
+2026-11-05 15:16:56 WARNING Disk space running low
+2026-11-05 15:17:25 INFO Request completed
+2026-11-05 15:17:54 INFO Service started
+2026-11-05 15:18:23 INFO Service started
+2026-11-05 15:18:52 INFO Service started
+2026-11-05 15:19:21 INFO Health check passed
+2026-11-05 15:19:50 INFO Cache refreshed
+2026-11-05 15:20:19 INFO User signed in
+2026-11-05 15:20:48 ERROR Request failed
+2026-11-05 15:21:17 WARNING Retry scheduled
+2026-11-05 15:21:46 INFO Health check passed
+2026-11-05 15:22:15 INFO User signed in
+2026-11-05 15:22:44 INFO Health check passed
+2026-11-05 15:23:13 INFO User signed in
+2026-11-05 15:23:42 ERROR Disk write failed
+2026-11-05 15:24:11 WARNING Slow response detected
+2026-11-05 15:24:40 INFO Request completed
+2026-11-05 15:25:09 INFO Health check passed
+2026-11-05 15:25:38 INFO Request completed
+2026-11-05 15:26:07 INFO Health check passed
+2026-11-05 15:26:36 INFO Request completed
+2026-11-05 14:20:08 ERROR Authentication service unavailable
+2026-11-05 14:20:16 ERROR Database connection failed
+2026-11-05 14:20:24 ERROR Database connection failed
+2026-11-05 14:20:32 ERROR Request failed
+2026-11-05 14:20:40 ERROR Database connection failed
+2026-11-05 14:20:00 ERROR Connection timeout
+2026-11-05 15:29:59 INFO Cache refreshed
+2026-11-05 08:00:28 INFO Cache refreshed
+2026-11-05 08:00:57 INFO Request completed
+2026-11-05 08:01:26 INFO User signed in
+2026-11-05 08:01:55 WARNING High memory usage
+2026-11-05 08:02:24 INFO Request completed
+2026-11-05 08:02:53 INFO Health check passed
+2026-11-05 08:03:22 INFO User signed in
+2026-11-05 08:03:51 INFO Health check passed
+2026-11-05 08:04:20 INFO Cache refreshed
+2026-11-05 08:04:49 INFO Cache refreshed
+2026-11-05 08:05:18 WARNING Disk space running low
+2026-11-05 08:05:47 WARNING High memory usage
+2026-11-05 08:06:16 WARNING Slow response detected
+2026-11-05 08:06:45 INFO Request completed
+2026-11-05 08:07:14 INFO Cache refreshed
+2026-11-05 08:07:43 WARNING Retry scheduled
+2026-11-05 08:08:12 INFO Cache refreshed
+2026-11-05 08:08:41 INFO User signed in
+2026-11-05 08:09:10 INFO User signed in
+2026-11-05 08:09:39 INFO User signed in
+2026-11-05 08:10:08 WARNING High memory usage
+2026-11-05 08:10:37 INFO Request completed
+2026-11-05 08:11:06 INFO Service started
+2026-11-05 08:11:35 ERROR Disk write failed
+2026-11-05 08:12:04 INFO Cache refreshed
+2026-11-05 08:12:33 INFO Health check passed
+2026-11-05 08:13:02 INFO Health check passed
+2026-11-05 08:13:31 DEBUG Debug trace recorded
+2026-11-05 08:14:00 WARNING Slow response detected
+2026-11-05 08:14:29 INFO Service started
+2026-11-05 14:20:16 ERROR Connection timeout
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Authentication service unavailable
+2026-11-05 14:20:00 ERROR Disk write failed
+2026-11-05 14:20:08 ERROR Request failed
+2026-11-05 08:17:52 INFO User signed in
+2026-11-05 08:18:21 INFO Request completed
+2026-11-05 08:18:50 WARNING Slow response detected
+2026-11-05 08:19:19 WARNING Slow response detected
+2026-11-05 08:19:48 INFO Health check passed
+2026-11-05 08:20:17 INFO Request completed
+2026-11-05 08:20:46 INFO Health check passed
+2026-11-05 08:21:15 WARNING Retry scheduled
+2026-11-05 08:21:44 INFO Cache refreshed
+2026-11-05 08:22:13 INFO Cache refreshed
+2026-11-05 08:22:42 INFO Request completed
+2026-11-05 08:23:11 INFO Request completed
+2026-11-05 08:23:40 INFO Request completed
+2026-11-05 08:24:09 INFO Health check passed
+2026-11-05 08:24:38 INFO Cache refreshed
+2026-11-05 08:25:07 INFO Cache refreshed
+2026-11-05 08:25:36 WARNING Slow response detected
+2026-11-05 08:26:05 WARNING Slow response detected
+2026-11-05 08:26:34 INFO Health check passed
+2026-11-05 08:27:03 ERROR Request failed
+2026-11-05 08:27:32 INFO User signed in
+2026-11-05 08:28:01 ERROR Connection timeout
+2026-11-05 08:28:30 INFO User signed in
+2026-11-05 08:28:59 INFO User signed in
+2026-11-05 08:29:28 INFO Cache refreshed
+2026-11-05 08:29:57 ERROR Authentication service unavailable
+2026-11-05 08:30:26 INFO Cache refreshed
+2026-11-05 08:30:55 INFO Cache refreshed
+2026-11-05 08:31:24 WARNING Disk space running low
+2026-11-05 08:31:53 INFO User signed in
+2026-11-05 08:32:22 INFO Service started
+2026-11-05 14:20:24 ERROR Authentication service unavailable
+2026-11-05 14:20:32 ERROR Request failed
+2026-11-05 14:20:40 ERROR Database connection failed
+2026-11-05 14:20:00 ERROR Connection timeout
+2026-11-05 14:20:08 ERROR Authentication service unavailable
+2026-11-05 14:20:16 ERROR Authentication service unavailable
+2026-11-05 08:35:45 INFO Cache refreshed
+2026-11-05 08:36:14 WARNING Disk space running low
+2026-11-05 08:36:43 INFO Cache refreshed
+2026-11-05 08:37:12 INFO Health check passed
+2026-11-05 08:37:41 INFO User signed in
+2026-11-05 08:38:10 ERROR Request failed
+2026-11-05 08:38:39 INFO Health check passed
+2026-11-05 08:39:08 ERROR Database connection failed
+2026-11-05 08:39:37 ERROR Connection timeout
+2026-11-05 08:40:06 INFO Health check passed
+2026-11-05 08:40:35 WARNING Disk space running low
+2026-11-05 08:41:04 INFO User signed in
+2026-11-05 08:41:33 INFO Cache refreshed
+2026-11-05 08:42:02 INFO Cache refreshed
+2026-11-05 08:42:31 WARNING High memory usage
+2026-11-05 08:43:00 ERROR Disk write failed
+2026-11-05 08:43:29 INFO Service started
+2026-11-05 08:43:58 INFO Request completed
+2026-11-05 08:44:27 WARNING Disk space running low
+2026-11-05 08:44:56 INFO User signed in
+2026-11-05 08:45:25 ERROR Authentication service unavailable
+2026-11-05 08:45:54 INFO Health check passed
+2026-11-05 08:46:23 INFO User signed in
+2026-11-05 08:46:52 INFO Request completed
+2026-11-05 08:47:21 INFO Request completed
+2026-11-05 08:47:50 INFO Cache refreshed
+2026-11-05 08:48:19 WARNING Retry scheduled
+2026-11-05 08:48:48 INFO Health check passed
+2026-11-05 08:49:17 INFO Health check passed
+2026-11-05 08:49:46 ERROR Disk write failed
+2026-11-05 08:50:15 INFO Service started
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Connection timeout
+2026-11-05 14:20:00 ERROR Request failed
+2026-11-05 14:20:08 ERROR Request failed
+2026-11-05 14:20:16 ERROR Database connection failed
+2026-11-05 14:20:24 ERROR Authentication service unavailable
+2026-11-05 08:53:38 WARNING High memory usage
+2026-11-05 08:54:07 WARNING Retry scheduled
+2026-11-05 08:54:36 INFO Service started
+2026-11-05 08:55:05 INFO Health check passed
+2026-11-05 08:55:34 INFO Cache refreshed
+2026-11-05 08:56:03 WARNING Retry scheduled
+2026-11-05 08:56:32 INFO Request completed
+2026-11-05 08:57:01 INFO Request completed
+2026-11-05 08:57:30 ERROR Request failed
+2026-11-05 08:57:59 INFO Service started
+2026-11-05 08:58:28 ERROR Database connection failed
+2026-11-05 08:58:57 INFO User signed in
+2026-11-05 08:59:26 INFO Health check passed
+bad log line
+2026-11-05 09:00:24 INFO Health check passed
+2026-11-05 09:00:53 INFO Request completed
+2026-11-05 09:01:22 ERROR Connection timeout
+2026-11-05 09:01:51 INFO User signed in
+2026-11-05 09:02:20 INFO Service started
+2026-11-05 09:02:49 WARNING Slow response detected
+2026-11-05 09:03:18 INFO Cache refreshed
+2026-11-05 09:03:47 INFO Cache refreshed
+2026-11-05 09:04:16 INFO Request completed
+2026-11-05 09:04:45 INFO Health check passed
+2026-11-05 09:05:14 WARNING Disk space running low
+2026-11-05 09:05:43 WARNING High memory usage
+2026-11-05 09:06:12 INFO Service started
+2026-11-05 09:06:41 INFO Cache refreshed
+2026-11-05 09:07:10 WARNING Retry scheduled
+2026-11-05 09:07:39 INFO Service started
+2026-11-05 09:08:08 INFO Service started
+2026-11-05 14:20:40 ERROR Database connection failed
+2026-11-05 14:20:00 ERROR Disk write failed
+2026-11-05 14:20:08 ERROR Connection timeout
+2026-11-05 14:20:16 ERROR Request failed
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Disk write failed
+2026-11-05 09:11:31 ERROR Request failed
+2026-11-05 09:12:00 INFO Health check passed
+2026-11-05 09:12:29 WARNING High memory usage
+2026-11-05 09:12:58 INFO Service started
+2026-11-05 09:13:27 INFO User signed in
+2026-11-05 09:13:56 WARNING Disk space running low
+2026-11-05 09:14:25 WARNING Slow response detected
+2026-11-05 09:14:54 INFO Service started
+2026-11-05 09:15:23 INFO Request completed
+2026-11-05 09:15:52 ERROR Connection timeout
+2026-11-05 09:16:21 WARNING Slow response detected
+2026-11-05 09:16:50 INFO Health check passed
+2026-11-05 09:17:19 INFO User signed in
+2026-11-05 09:17:48 ERROR Database connection failed
+2026-11-05 09:18:17 ERROR Request failed
+2026-11-05 09:18:46 INFO User signed in
+2026-11-05 09:19:15 INFO Cache refreshed
+2026-11-05 09:19:44 DEBUG Debug trace recorded
+2026-11-05 09:20:13 INFO Request completed
+2026-11-05 09:20:42 INFO Service started
+2026-11-05 09:21:11 INFO Service started
+2026-11-05 09:21:40 WARNING Slow response detected
+2026-11-05 09:22:09 INFO Request completed
+2026-11-05 09:22:38 INFO Service started
+2026-11-05 09:23:07 INFO Service started
+2026-11-05 09:23:36 INFO Service started
+2026-11-05 09:24:05 WARNING Slow response detected
+2026-11-05 09:24:34 INFO Cache refreshed
+2026-11-05 09:25:03 INFO Cache refreshed
+2026-11-05 09:25:32 INFO Service started
+2026-11-05 09:26:01 INFO Health check passed
+2026-11-05 14:20:00 ERROR Database connection failed
+2026-11-05 14:20:08 ERROR Request failed
+2026-11-05 14:20:16 ERROR Request failed
+2026-11-05 14:20:24 ERROR Request failed
+2026-11-05 14:20:32 ERROR Database connection failed
+2026-99-99 25:61:61 ERROR Invalid timestamp
+2026-11-05 09:29:24 INFO Request completed
+2026-11-05 09:29:53 INFO Request completed
+2026-11-05 09:30:22 INFO Cache refreshed
+2026-11-05 09:30:51 INFO Cache refreshed
+2026-11-05 09:31:20 WARNING High memory usage
+2026-11-05 09:31:49 ERROR Database connection failed
+2026-11-05 09:32:18 WARNING Retry scheduled
+2026-11-05 09:32:47 INFO Request completed
+2026-11-05 09:33:16 WARNING Disk space running low
+2026-11-05 09:33:45 ERROR Connection timeout
+2026-11-05 09:34:14 INFO Request completed
+2026-11-05 09:34:43 INFO Health check passed
+2026-11-05 09:35:12 INFO Request completed
+2026-11-05 09:35:41 INFO User signed in
+2026-11-05 09:36:10 INFO Cache refreshed
+2026-11-05 09:36:39 INFO Cache refreshed
+2026-11-05 09:37:08 INFO Cache refreshed
+2026-11-05 09:37:37 WARNING Slow response detected
+2026-11-05 09:38:06 INFO User signed in
+2026-11-05 09:38:35 INFO Cache refreshed
+2026-11-05 09:39:04 WARNING Retry scheduled
+2026-11-05 09:39:33 ERROR Disk write failed
+2026-11-05 09:40:02 INFO Cache refreshed
+2026-11-05 09:40:31 INFO User signed in
+2026-11-05 09:41:00 INFO Cache refreshed
+2026-11-05 09:41:29 WARNING Slow response detected
+2026-11-05 09:41:58 INFO Service started
+2026-11-05 09:42:27 WARNING Slow response detected
+2026-11-05 09:42:56 WARNING Disk space running low
+2026-11-05 09:43:25 INFO Health check passed
+2026-11-05 09:43:54 INFO Health check passed
+2026-11-05 14:20:08 ERROR Database connection failed
+2026-11-05 14:20:16 ERROR Request failed
+2026-11-05 14:20:24 ERROR Database connection failed
+2026-11-05 14:20:32 ERROR Database connection failed
+2026-11-05 14:20:40 ERROR Connection timeout
+2026-11-05 14:20:00 ERROR Database connection failed
+2026-11-05 09:47:17 INFO Health check passed
+2026-11-05 09:47:46 INFO Service started
+2026-11-05 09:48:15 INFO User signed in
+2026-11-05 09:48:44 INFO Service started
+2026-11-05 09:49:13 INFO User signed in
+2026-11-05 09:49:42 INFO User signed in
+2026-11-05 09:50:11 ERROR Database connection failed
+2026-11-05 09:50:40 INFO Cache refreshed
+2026-11-05 09:51:09 INFO Service started
+2026-11-05 09:51:38 INFO User signed in
+2026-11-05 09:52:07 INFO User signed in
+2026-11-05 09:52:36 WARNING Retry scheduled
+2026-11-05 09:53:05 WARNING Disk space running low
+2026-11-05 09:53:34 INFO Service started
+2026-11-05 09:54:03 INFO Cache refreshed
+2026-11-05 09:54:32 INFO User signed in
+2026-11-05 09:55:01 ERROR Authentication service unavailable
+2026-11-05 09:55:30 WARNING High memory usage
+2026-11-05 09:55:59 INFO Request completed
+2026-11-05 09:56:28 INFO Request completed
+2026-11-05 09:56:57 INFO Cache refreshed
+2026-11-05 09:57:26 ERROR Authentication service unavailable
+2026-11-05 09:57:55 INFO Cache refreshed
+2026-11-05 09:58:24 INFO Request completed
+2026-11-05 09:58:53 INFO Request completed
+2026-11-05 09:59:22 INFO Cache refreshed
+2026-11-05 09:59:51 INFO Service started
+2026-11-05 10:00:20 ERROR Authentication service unavailable
+2026-11-05 10:00:49 WARNING Disk space running low
+2026-11-05 10:01:18 WARNING Slow response detected
+2026-11-05 10:01:47 INFO Service started
+2026-11-05 14:20:16 ERROR Disk write failed
+2026-11-05 14:20:24 ERROR Database connection failed
+2026-11-05 14:20:32 ERROR Authentication service unavailable
+2026-11-05 14:20:40 ERROR Disk write failed
+2026-11-05 14:20:00 ERROR Database connection failed
+2026-11-05 14:20:08 ERROR Database connection failed
+2026-11-05 10:05:10 INFO User signed in
+2026-11-05 10:05:39 WARNING High memory usage
+2026-11-05 10:06:08 INFO Health check passed
+2026-11-05 10:06:37 WARNING Disk space running low
+2026-11-05 10:07:06 INFO Request completed
+2026-11-05 10:07:35 INFO Health check passed
+2026-11-05 10:08:04 INFO Cache refreshed
+2026-11-05 10:08:33 INFO Request completed
+2026-11-05 10:09:02 WARNING High memory usage
+2026-11-05 10:09:31 INFO Cache refreshed

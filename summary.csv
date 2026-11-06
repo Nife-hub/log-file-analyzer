@@ -1,8 +1,8 @@
 Metric,Count
-Total Logs,5
-INFO,1
-WARNING,1
-ERROR,3
-Unknown Levels,0
-Unparsed Lines,0
-Matching Logs,5
+Total Logs,2050
+INFO,1183
+WARNING,347
+ERROR,489
+Unknown Levels,12
+Unparsed Lines,19
+Matching Logs,2031

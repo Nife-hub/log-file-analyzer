@@ -1,0 +1,8 @@
+2026-11-05 14:20:01 ERROR Database connection failed
+2026-11-05 14:20:20 ERROR Database connection failed
+2026-11-05 14:20:50 ERROR Connection timeout
+2026-11-05 14:21:00 INFO Service started
+2026-11-05 14:22:00 WARNING Disk space running low
+2026-11-05 14:23:00 DEBUG Debug trace recorded
+bad log line
+2026-99-99 25:61:61 ERROR Invalid timestamp
