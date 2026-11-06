@@ -4,6 +4,11 @@ from datetime import datetime
 
 info_count, warning_count, error_count, total_logs, unparsed_counter, unknown_level_count, match_count, displayed_count = 0, 0, 0, 0, 0, 0, 0, 0
 
+# INPUT FILENAME(S)
+user_input = input('Enter filename(s) separated with a space: ').strip()
+log_files = user_input.split()
+
+# INPUT FILTER LEVEL
 filter_level = input('Show level (ALL/INFO/WARNING/ERROR): ').strip().upper()
 
 valid_levels = ['ALL', 'INFO', 'WARNING', 'ERROR']
@@ -83,64 +88,68 @@ while True:
         print('Invalid date/time. Use YYYY-MM-DD HH:MM:SS.')
 
 
-# ACCESS AND READ FILE
+# ACCESS AND READ FILES 
 try:
-    with open('server.log', 'r', encoding='utf-8') as log_file:
-        for line_index, line in enumerate(log_file, start=1):
-            total_logs += 1       # total count
-            parts = line.split()    # split the current line to a list
+    for filename in log_files:
+        with open(filename, 'r', encoding='utf-8') as log_file:
+            for line_index, line in enumerate(log_file, start=1):
+                total_logs += 1       # total count
+                parts = line.split()    # split the current line to a list
 
-            if len(parts) < 3:   # if the length's less than 3, it's invalid
-                unparsed_counter += 1   # count the invalid
-                continue
-        
-            level = parts[2]    # level position
-            timestamp_text = " ".join(parts[:2])  # timestamp
+                if len(parts) < 3:   # if the length's less than 3, it's invalid
+                    unparsed_counter += 1   # count the invalid
+                    continue
+            
+                level = parts[2]    # level position
+                timestamp_text = " ".join(parts[:2])  # timestamp
 
-            # DATE & TIME VALIDATION
-            try:
-                timestamp = datetime.strptime(timestamp_text, '%Y-%m-%d %H:%M:%S')
-            except ValueError:
-                unparsed_counter += 1
-                continue
+                # DATE & TIME VALIDATION
+                try:
+                    timestamp = datetime.strptime(timestamp_text, '%Y-%m-%d %H:%M:%S')
+                except ValueError:
+                    unparsed_counter += 1
+                    continue
 
-            # COUNT LOGS EVERY HOUR
-            hour = timestamp.hour   
-            if hour in hourly_counts:
-                hourly_counts[hour] += 1
-            else:
-                hourly_counts[hour] = 1
-
-            # CHECK FOR AND COUNT LOG LEVEL
-            if level == 'INFO':
-                info_count += 1
-            elif level == 'WARNING':
-                warning_count += 1
-
-            elif level == 'ERROR':
-                # count error messages
-                message = " ".join(parts[3:])  # extract the message from the list
-                if message in error_messages:   # update the dictionary
-                    error_messages[message] += 1
+                # COUNT LOGS EVERY HOUR
+                hour = timestamp.hour   
+                if hour in hourly_counts:
+                    hourly_counts[hour] += 1
                 else:
-                    error_messages[message] = 1
+                    hourly_counts[hour] = 1
 
-                error_count += 1
-            else:
-                unknown_level_count += 1
+                # extract the message from the list
+                message = " ".join(parts[3:])  
 
-            # CHECK FOR INPUTTED LEVEL AND KEYWORD
-            if (
-                (filter_level == 'ALL' or level == filter_level) 
-                and keyword.lower() in line.lower() 
-                and (start_time is None or timestamp >= start_time) 
-                and (end_time is None or timestamp <= end_time)
-                ):
-                match_count += 1
+                # CHECK FOR AND COUNT LOG LEVEL
+                if level == 'INFO':
+                    info_count += 1
+                elif level == 'WARNING':
+                    warning_count += 1
 
-                if limit is None or displayed_count < limit:    # None is a special singleton object, and is checks object identity
-                    print(f'\nLine {line_index}: {line.strip()}')
-                    displayed_count += 1
+                elif level == 'ERROR':
+                    # count error messages
+                    if message in error_messages:   # update the dictionary
+                        error_messages[message] += 1
+                    else:
+                        error_messages[message] = 1
+                    error_count += 1
+                else:
+                    unknown_level_count += 1
+
+                # CHECK FOR INPUTTED LEVEL AND KEYWORD
+                if (
+                    (filter_level == 'ALL' or level == filter_level) 
+                    and keyword.lower() in line.lower() 
+                    and (start_time is None or timestamp >= start_time) 
+                    and (end_time is None or timestamp <= end_time)
+                    ):
+                    match_count += 1
+
+                    filtered_logs.append([timestamp, level, message])   # update filtered logs list
+
+                    if limit is None or displayed_count < limit:    # None is a special singleton object, and is checks object identity
+                        print(f'\nLine {line_index}: {line.strip()}')
+                        displayed_count += 1
 
 except FileNotFoundError:
     print('The requested file could not be found.')
@@ -203,16 +212,31 @@ else:
 # PRINT THE OUTPUT
 print(f'\nTOTAL: {total_logs}\n\nINFO: {info_count} ({info_percentage:.1f}%)\n\nWARNING: {warning_count} ({warning_percentage:.1f}%)\n\nERROR: {error_count} ({error_percent:.1f}%)\n\nUNPARSED: {unparsed_counter}\n\nUnknown level: {unknown_level_count}\n\nTotal Matches: {match_count}\n\nMatches shown: {displayed_count}\n\nHidden: {hidden_count}\n')
 
-with open('summary.csv', 'w', newline='', encoding='utf-8') as file:
-    writer = csv.writer(file)
-    writer.writerow(['Metric', 'Count'])
-    writer.writerow(['Total Logs', total_logs])
-    writer.writerow(['INFO', info_count])
-    writer.writerow(['WARNING', warning_count])
-    writer.writerow(['ERROR', error_count])
-    writer.writerow(['Unknown Levels', unknown_level_count])
-    writer.writerow(['Unparsed Lines', unparsed_counter])
-    writer.writerow(['Matching Logs', match_count])
+
+# WRITE THE SUMMARY INTO CSV FILE 
+try:
+    with open('summary.csv', 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Metric', 'Count'])
+        writer.writerow(['Total Logs', total_logs])
+        writer.writerow(['INFO', info_count])
+        writer.writerow(['WARNING', warning_count])
+        writer.writerow(['ERROR', error_count])
+        writer.writerow(['Unknown Levels', unknown_level_count])
+        writer.writerow(['Unparsed Lines', unparsed_counter])
+        writer.writerow(['Matching Logs', match_count])
+except PermissionError:
+    print('Permission denied. Unable to write summary.csv')
+
+
+# WRITE THE FILTERED LOGS INTO CSV FILE
+try:
+    with open('filtered_logs.csv', 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Timestamp', 'Level', 'Message'])
+        writer.writerows(filtered_logs)
+except PermissionError:
+    print('Permission denied. Unable to write filtered_logs.csv')
 
 
 

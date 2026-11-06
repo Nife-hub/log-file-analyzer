@@ -1,0 +1,4 @@
+Timestamp,Level,Message
+2026-11-05 09:30:00,ERROR,Database failed
+2026-11-05 10:30:00,ERROR,Connection timeout
+2026-11-05 11:00:00,ERROR,Database failed
